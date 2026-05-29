@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CampusFlow — L'OS des associations étudiantes</title>
+<meta name="description" content="CampusFlow centralise toute la vie associative de votre campus : événements, membres, communication, bénévoles, sponsors et analytics — sur une seule plateforme.">
+<meta property="og:title" content="CampusFlow — L'OS des associations étudiantes">
+<meta property="og:description" content="Organisez vos événements, engagez votre communauté et structurez votre association depuis une seule plateforme.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="glow-blob" style="width:620px;height:620px;background:#4f46e5;top:-180px;left:50%;transform:translateX(-50%);opacity:.32"></div>
+
+<!-- ===================== NAV ===================== -->
+<nav class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#" class="brand">
+      <span class="brand-mark"><span class="diamond"></span></span>
+      CampusFlow
+    </a>
+    <div class="nav-links">
+      <a href="#solution">Plateforme</a>
+      <a href="#modules">Modules</a>
+      <a href="#workflow">Fonctionnement</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#" class="login">Connexion</a>
+      <a href="#cta" class="btn btn-primary">Demander une démo</a>
+    </div>
+    <button class="nav-burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-content reveal">
+      <span class="eyebrow"><span class="dot"></span>L'Operating System de la vie associative</span>
+      <h1>Toute la vie associative<br>de votre campus. <span class="grad-text">Centralisée.</span></h1>
+      <p class="lead">CampusFlow aide les associations étudiantes, BDE et clubs à organiser leurs événements, engager leurs membres et structurer toute leur communauté — depuis une seule plateforme.</p>
+      <div class="hero-cta">
+        <a href="#cta" class="btn btn-primary btn-lg">Demander une démo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#solution" class="btn btn-ghost btn-lg">Découvrir la plateforme</a>
+      </div>
+      <div class="hero-meta">
+        <span><span class="ck">✦</span> Sans engagement</span>
+        <span><span class="ck">✦</span> Mise en place en 1 journée</span>
+        <span><span class="ck">✦</span> RGPD &amp; données hébergées en UE</span>
+      </div>
+    </div>
+
+    <!-- Hero dashboard mockup -->
+    <div class="hero-stage reveal d2">
+      <!-- floating: notification -->
+      <div class="float float-1">
+        <div class="fl-head">
+          <span class="fl-ic" style="background:rgba(56,214,230,0.14)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#38d6e6" stroke-width="2"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" stroke-linecap="round" stroke-linejoin="round"/><path d="M13.7 21a2 2 0 0 1-3.4 0" stroke-linecap="round"/></svg>
+          </span>
+          <div><div class="fl-title">Nouveau RSVP</div><div class="fl-sub">il y a 2 min</div></div>
+        </div>
+        <div class="fl-body"><strong>+38 inscrits</strong> à la Soirée d'intégration 🎉</div>
+      </div>
+      <!-- floating: analytics -->
+      <div class="float float-2">
+        <div class="fl-head">
+          <span class="fl-ic" style="background:rgba(111,114,245,0.18)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#9b9bf8" stroke-width="2"><path d="M3 3v18h18" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 14l4-4 3 3 5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div><div class="fl-title">Engagement membres</div><div class="fl-sub">30 derniers jours</div></div>
+        </div>
+        <div class="fl-stat grad-text">+64%</div>
+        <div class="mini-spark"><i style="height:40%"></i><i style="height:55%"></i><i style="height:45%"></i><i style="height:70%"></i><i style="height:60%"></i><i style="height:85%"></i><i style="height:100%"></i></div>
+      </div>
+      <!-- floating: member -->
+      <div class="float float-3">
+        <div class="fl-head">
+          <span class="fl-ic" style="background:rgba(176,107,246,0.16)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#c79bf8" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0" stroke-linecap="round"/></svg>
+          </span>
+          <div><div class="fl-title">847 membres actifs</div><div class="fl-sub">Bureau 2025-2026</div></div>
+        </div>
+        <div class="ev-avs" style="margin-top:4px">
+          <span class="av" style="background:#6f72f5">LM</span>
+          <span class="av" style="background:#b06bf6">AK</span>
+          <span class="av" style="background:#38d6e6;color:#06141a">TR</span>
+          <span class="av" style="background:#f59e6f;color:#1a0e06">SD</span>
+          <span class="av" style="background:#2a2a3a">+12</span>
+        </div>
+      </div>
+
+      <div class="dash">
+        <div class="dash-top">
+          <div class="dash-dots"><i></i><i></i><i></i></div>
+          <div class="dash-url">campusflow.app / bde-sciences-po / dashboard</div>
+        </div>
+        <div class="dash-body">
+          <aside class="dash-side">
+            <div class="ws">
+              <span class="ws-logo"></span>
+              <div><div class="ws-name">BDE Sciences Po</div><div class="ws-sub">Espace association</div></div>
+            </div>
+            <div class="dash-nav">
+              <a class="ni active"><span class="ic"></span>Tableau de bord</a>
+              <a class="ni"><span class="ic"></span>Événements</a>
+              <a class="ni"><span class="ic"></span>Membres</a>
+              <a class="ni"><span class="ic"></span>Communication</a>
+              <a class="ni"><span class="ic"></span>Bénévoles</a>
+            </div>
+            <div class="dash-navlabel">Pilotage</div>
+            <div class="dash-nav">
+              <a class="ni"><span class="ic"></span>Sponsors</a>
+              <a class="ni"><span class="ic"></span>Analytics</a>
+              <a class="ni"><span class="ic"></span>Finances</a>
+            </div>
+          </aside>
+          <main class="dash-main">
+            <div class="dash-mainhead">
+              <h4>Bonjour, Léa 👋</h4>
+              <span class="pill">● En direct</span>
+            </div>
+            <div class="dash-stats">
+              <div class="stat-card"><div class="lab">Membres</div><div class="val">847</div><div class="delta">▲ +12% ce mois</div></div>
+              <div class="stat-card"><div class="lab">Événements</div><div class="val">23</div><div class="delta">▲ 4 à venir</div></div>
+              <div class="stat-card"><div class="lab">Participation</div><div class="val">91%</div><div class="delta warn">▲ +6 pts</div></div>
+            </div>
+            <div class="dash-row">
+              <div class="panel">
+                <h5>Engagement de la communauté <span class="mini">12 sem.</span></h5>
+                <div class="bars">
+                  <div class="bar" style="height:38%"></div><div class="bar" style="height:52%"></div>
+                  <div class="bar" style="height:46%"></div><div class="bar" style="height:64%"></div>
+                  <div class="bar" style="height:58%"></div><div class="bar" style="height:72%"></div>
+                  <div class="bar" style="height:66%"></div><div class="bar" style="height:80%"></div>
+                  <div class="bar" style="height:74%"></div><div class="bar" style="height:90%"></div>
+                  <div class="bar" style="height:84%"></div><div class="bar" style="height:100%"></div>
+                </div>
+              </div>
+              <div class="panel">
+                <h5>Prochains événements</h5>
+                <div class="ev">
+                  <div class="ev-date"><div class="d">14</div><div class="m">Juin</div></div>
+                  <div class="ev-info"><div class="t">Gala de fin d'année</div><div class="s">312 inscrits</div></div>
+                </div>
+                <div class="ev">
+                  <div class="ev-date"><div class="d">21</div><div class="m">Juin</div></div>
+                  <div class="ev-info"><div class="t">Tournoi inter-pôles</div><div class="s">88 inscrits</div></div>
+                </div>
+                <div class="ev">
+                  <div class="ev-date"><div class="d">28</div><div class="m">Juin</div></div>
+                  <div class="ev-info"><div class="t">Afterwork partenaires</div><div class="s">46 inscrits</div></div>
+                </div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===================== PARTNERS MARQUEE ===================== -->
+<section class="marquee-wrap">
+  <div class="wrap">
+    <p class="marquee-label">Adopté par les associations des plus grands campus</p>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="logo-univ"><span class="sym dia"></span>Université Lumière</span>
+      <span class="logo-univ"><span class="sym circle"></span>Campus Atlas</span>
+      <span class="logo-univ"><span class="sym"></span>Institut Méridien</span>
+      <span class="logo-univ"><span class="sym dia"></span>Polytech Avenir</span>
+      <span class="logo-univ"><span class="sym circle"></span>École Boréal</span>
+      <span class="logo-univ"><span class="sym"></span>Sorbonne Nova</span>
+      <span class="logo-univ"><span class="sym dia"></span>HEC Horizon</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROBLÈMES (AVANT/APRÈS) ===================== -->
+<section class="section" id="probleme">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>Le problème</span>
+      <h2 class="h-section">Gérer une asso ne devrait pas être<br>un second job à temps plein.</h2>
+      <p class="lead">Entre les groupes WhatsApp, les Google Sheets éparpillés et les passations bâclées, l'information se perd et l'énergie collective s'épuise.</p>
+    </div>
+    <div class="ba-grid">
+      <div class="ba-card ba-before reveal d1">
+        <div class="ba-tag">✕ Avant CampusFlow</div>
+        <div class="ba-list">
+          <div class="ba-item"><span class="x">✕</span>Chaos permanent sur WhatsApp, infos noyées dans 6 groupes</div>
+          <div class="ba-item"><span class="x">✕</span>Des dizaines de Google Sheets que personne ne maintient</div>
+          <div class="ba-item"><span class="x">✕</span>Mémoire de l'asso perdue à chaque changement de bureau</div>
+          <div class="ba-item"><span class="x">✕</span>Inscriptions aux événements gérées à la main</div>
+          <div class="ba-item"><span class="x">✕</span>Outils dispersés : Drive, Trello, Doodle, mails…</div>
+          <div class="ba-item"><span class="x">✕</span>Impossible de mesurer l'engagement réel des membres</div>
+        </div>
+      </div>
+      <div class="ba-vs reveal d2">VS</div>
+      <div class="ba-card ba-after reveal d3">
+        <div class="ba-tag">✦ Avec CampusFlow</div>
+        <div class="ba-list">
+          <div class="ba-item"><span class="x">✓</span>Un hub unique : tout le monde sait où chercher</div>
+          <div class="ba-item"><span class="x">✓</span>Des données structurées, à jour et exportables</div>
+          <div class="ba-item"><span class="x">✓</span>Une mémoire vivante transmise d'un bureau à l'autre</div>
+          <div class="ba-item"><span class="x">✓</span>Billetterie, RSVP et check-in QR automatisés</div>
+          <div class="ba-item"><span class="x">✓</span>Tous vos outils réunis en une plateforme fluide</div>
+          <div class="ba-item"><span class="x">✓</span>Des analytics clairs sur l'engagement et l'impact</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SOLUTION ===================== -->
+<section class="section solution" id="solution">
+  <div class="glow-blob" style="width:560px;height:560px;background:#b06bf6;top:10%;right:-200px;opacity:.18"></div>
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>La solution</span>
+      <h2 class="h-section">Le hub central de la vie associative.</h2>
+      <p class="lead">Une seule plateforme pour piloter vos événements, votre communauté, votre communication et vos finances. Pensée pour les associations, conçue comme un produit pro.</p>
+    </div>
+
+    <div class="feature-tabs reveal d1">
+      <button class="ftab active">Vue d'ensemble</button>
+      <button class="ftab">Événements</button>
+      <button class="ftab">Membres</button>
+      <button class="ftab">Analytics</button>
+    </div>
+
+    <div class="solution-stage reveal d2">
+      <div class="dash">
+        <div class="dash-top">
+          <div class="dash-dots"><i></i><i></i><i></i></div>
+          <div class="dash-url">campusflow.app / dashboard / vue d'ensemble</div>
+        </div>
+        <div class="dash-body">
+          <aside class="dash-side">
+            <div class="ws"><span class="ws-logo"></span><div><div class="ws-name">Mon Association</div><div class="ws-sub">Espace pilotage</div></div></div>
+            <div class="dash-nav">
+              <a class="ni active"><span class="ic"></span>Tableau de bord</a>
+              <a class="ni"><span class="ic"></span>Événements</a>
+              <a class="ni"><span class="ic"></span>Membres &amp; pôles</a>
+              <a class="ni"><span class="ic"></span>Galerie</a>
+              <a class="ni"><span class="ic"></span>Wiki interne</a>
+            </div>
+            <div class="dash-navlabel">Croissance</div>
+            <div class="dash-nav">
+              <a class="ni"><span class="ic"></span>Analytics</a>
+              <a class="ni"><span class="ic"></span>Sponsors</a>
+            </div>
+          </aside>
+          <main class="dash-main">
+            <div class="dash-mainhead"><h4>Vue d'ensemble</h4><span class="pill">● Synchronisé</span></div>
+            <div class="dash-stats">
+              <div class="stat-card"><div class="lab">Communauté</div><div class="val">1 204</div><div class="delta">▲ +18% / an</div></div>
+              <div class="stat-card"><div class="lab">Événements 2026</div><div class="val">47</div><div class="delta">▲ 9 ce trimestre</div></div>
+              <div class="stat-card"><div class="lab">Taux d'engagement</div><div class="val">88%</div><div class="delta warn">▲ +11 pts</div></div>
+            </div>
+            <div class="dash-row">
+              <div class="panel">
+                <h5>Activité de la communauté <span class="mini">temps réel</span></h5>
+                <div class="chart">
+                  <svg viewBox="0 0 320 110" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#6f72f5" stop-opacity="0.45"/>
+                        <stop offset="1" stop-color="#6f72f5" stop-opacity="0"/>
+                      </linearGradient>
+                    </defs>
+                    <path d="M0,90 L30,76 L60,82 L90,58 L120,64 L150,40 L180,48 L210,30 L240,36 L270,18 L300,24 L320,10 L320,110 L0,110 Z" fill="url(#area)"/>
+                    <path d="M0,90 L30,76 L60,82 L90,58 L120,64 L150,40 L180,48 L210,30 L240,36 L270,18 L300,24 L320,10" fill="none" stroke="#9b9bf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="panel">
+                <h5>Nouveaux membres</h5>
+                <div class="mem"><span class="av" style="background:#6f72f5">CM</span><div class="mem-info"><div class="mn">Camille Moreau</div><div class="mr">Pôle Événementiel</div></div><span class="role">Membre</span></div>
+                <div class="mem"><span class="av" style="background:#b06bf6">YB</span><div class="mem-info"><div class="mn">Yanis Benali</div><div class="mr">Pôle Com'</div></div><span class="role">Resp.</span></div>
+                <div class="mem"><span class="av" style="background:#38d6e6;color:#06141a">EF</span><div class="mem-info"><div class="mn">Emma Faure</div><div class="mr">Pôle Partenariats</div></div><span class="role">Membre</span></div>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== MODULES ===================== -->
+<section class="section" id="modules">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>10 modules · une plateforme</span>
+      <h2 class="h-section">Tout ce dont votre asso a besoin.<br>Rien de superflu.</h2>
+      <p class="lead">Chaque module est pensé pour un besoin concret de la vie associative — et tous communiquent entre eux par défaut.</p>
+    </div>
+
+    <!-- 4 FEATURED -->
+    <div class="mod-featured">
+      <!-- M1 Events -->
+      <div class="mod-card reveal d1">
+        <span class="mod-badge">Le plus utilisé</span>
+        <span class="mod-num">Module 01</span>
+        <div class="mod-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M3 9h18M8 2v4M16 2v4" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Event Management Hub</h3>
+        <p>De la création de l'événement au check-in : RSVP, billetterie, QR code, gestion des participants et programme en direct.</p>
+        <div class="mod-tags"><span>RSVP</span><span>Billetterie</span><span>QR check-in</span><span>Programme live</span></div>
+        <div class="mod-visual">
+          <div class="ticket">
+            <div class="qr"></div>
+            <div class="ticket-info">
+              <div class="tt">Soirée d'intégration 2026</div>
+              <div class="ts">VEN. 14 JUIN · 20H00 · Le Rooftop</div>
+              <div class="tv">✓ Billet validé · Place A-128</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- M2 Community -->
+      <div class="mod-card reveal d2">
+        <span class="mod-num">Module 02</span>
+        <div class="mod-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3.2"/><path d="M3 20a6 6 0 0 1 12 0" stroke-linecap="round"/><circle cx="17.5" cy="9" r="2.6"/><path d="M16 20a5 5 0 0 1 5-3.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Community &amp; Members OS</h3>
+        <p>Profils, rôles &amp; permissions, pôles étudiants, historique de participation et onboarding fluide des nouveaux membres.</p>
+        <div class="mod-tags"><span>Rôles &amp; permissions</span><span>Pôles</span><span class="grad-text" style="color:#c79bf8">Association Memory</span></div>
+        <div class="mod-visual">
+          <div class="mem"><span class="av" style="background:#6f72f5">LM</span><div class="mem-info"><div class="mn">Léa Martin</div><div class="mr">Présidente · 2 mandats</div></div><span class="role">Admin</span></div>
+          <div class="mem"><span class="av" style="background:#b06bf6">TR</span><div class="mem-info"><div class="mn">Théo Rousseau</div><div class="mr">Trésorier</div></div><span class="role">Bureau</span></div>
+          <div class="mem"><span class="av" style="background:#38d6e6;color:#06141a">AK</span><div class="mem-info"><div class="mn">Aya Khan</div><div class="mr">Resp. Événementiel</div></div><span class="role">Pôle</span></div>
+        </div>
+      </div>
+
+      <!-- M4 Volunteer (Kanban) -->
+      <div class="mod-card reveal d3">
+        <span class="mod-num">Module 04</span>
+        <div class="mod-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="5" height="16" rx="1.5"/><rect x="10" y="4" width="5" height="10" rx="1.5"/><rect x="17" y="4" width="4" height="14" rx="1.5"/></svg>
+        </div>
+        <h3>Volunteer Management</h3>
+        <p>Recrutez vos bénévoles, affectez les missions, organisez les équipes et suivez la participation sur un Kanban clair.</p>
+        <div class="mod-tags"><span>Recrutement</span><span>Missions</span><span>Planning</span></div>
+        <div class="mod-visual">
+          <div class="kan">
+            <div class="kan-col"><div class="kt">À faire</div>
+              <div class="kan-card"><span class="kc-dot" style="background:#f59e6f"></span>Stand accueil</div>
+              <div class="kan-card"><span class="kc-dot" style="background:#38d6e6"></span>Logistique son</div>
+            </div>
+            <div class="kan-col"><div class="kt">En cours</div>
+              <div class="kan-card"><span class="kc-dot" style="background:#6f72f5"></span>Affiches campus</div>
+            </div>
+            <div class="kan-col"><div class="kt">Fait</div>
+              <div class="kan-card"><span class="kc-dot" style="background:#4ade80"></span>Réservation salle</div>
+              <div class="kan-card"><span class="kc-dot" style="background:#4ade80"></span>Budget validé</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- M7 Analytics -->
+      <div class="mod-card reveal d4">
+        <span class="mod-badge">Pro · Campus</span>
+        <span class="mod-num">Module 07</span>
+        <div class="mod-ic">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18" stroke-linecap="round" stroke-linejoin="round"/><rect x="7" y="11" width="3" height="6" rx="1"/><rect x="12" y="7" width="3" height="10" rx="1"/><rect x="17" y="13" width="3" height="4" rx="1"/></svg>
+        </div>
+        <h3>Analytics &amp; Insights</h3>
+        <p>Engagement des membres, participation aux événements, KPIs et croissance de la communauté — en temps réel.</p>
+        <div class="mod-tags"><span>Engagement</span><span>KPIs</span><span>Croissance</span><span>Temps réel</span></div>
+        <div class="mod-visual">
+          <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px">
+            <div><div class="lab" style="font-size:11px;color:var(--text-faint);font-family:var(--font-mono)">PARTICIPATION MOY.</div><div class="fl-stat grad-text">88%</div></div>
+            <div class="bars" style="width:55%;height:54px"><div class="bar" style="height:50%"></div><div class="bar" style="height:70%"></div><div class="bar" style="height:60%"></div><div class="bar" style="height:88%"></div><div class="bar" style="height:78%"></div><div class="bar" style="height:100%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6 COMPACT -->
+    <div class="mod-grid">
+      <div class="mod-mini reveal d1">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16v11H7l-3 3V5z" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="mod-num">Module 03</span>
+        <h4>Smart Communication Center</h4>
+        <p>Annonces, notifications, emails, calendrier partagé et feed d'activité — comme un réseau social interne au campus.</p>
+      </div>
+      <div class="mod-mini reveal d2">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18" stroke-linecap="round"/></svg></div>
+        <span class="mod-num">Module 05</span>
+        <h4>Sponsoring &amp; Partnerships CRM</h4>
+        <p>Pipeline de partenariats, fiches sponsors, contrats et suivi du ROI de visibilité — un vrai CRM pour vos partenaires.</p>
+      </div>
+      <div class="mod-mini reveal d3">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="8.5" cy="10" r="1.8"/><path d="M21 16l-5-4-7 6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="mod-num">Module 06</span>
+        <h4>Media &amp; Campus Content</h4>
+        <p>Galeries photos, albums d'événements, upload communautaire, stories campus et vidéos dans un espace immersif.</p>
+      </div>
+      <div class="mod-mini reveal d1">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V5a2 2 0 0 1 2-2h10l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z" stroke-linejoin="round"/><path d="M8 8h6M8 12h8M8 16h5" stroke-linecap="round"/></svg></div>
+        <span class="mod-num">Module 08</span>
+        <h4>Association Knowledge Base</h4>
+        <p>Wiki interne, guides de passation, templates d'événements et archives des bureaux. La mémoire vivante de votre asso.</p>
+      </div>
+      <div class="mod-mini reveal d2">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2" stroke-linecap="round"/></svg></div>
+        <span class="mod-num">Module 09</span>
+        <h4>Mobile App / PWA</h4>
+        <p>QR mobile, notifications push, billets dans la poche, agenda campus et dashboard — toute l'asso depuis le téléphone.</p>
+      </div>
+      <div class="mod-mini reveal d3">
+        <div class="mod-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.2c0-1.1 1.1-1.7 2.5-1.7s2.5.7 2.5 1.7-1 1.5-2.5 1.8-2.5.9-2.5 1.9 1.1 1.6 2.5 1.6 2.5-.6 2.5-1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <span class="mod-num">Module 10</span>
+        <h4>Finance Lite</h4>
+        <p>Budgets d'événements, revenus &amp; dépenses, cotisations et exports comptables simples — sans tableur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== WORKFLOW ===================== -->
+<section class="section" id="workflow">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>Comment ça marche</span>
+      <h2 class="h-section">De zéro à campus organisé,<br>en quatre étapes.</h2>
+    </div>
+    <div class="flow">
+      <div class="flow-line"></div>
+      <div class="flow-step lit reveal d1">
+        <div class="flow-num">1</div>
+        <h4>Créez votre asso</h4>
+        <p>Importez vos membres, définissez vos pôles et vos rôles en quelques minutes.</p>
+      </div>
+      <div class="flow-step lit reveal d2">
+        <div class="flow-num">2</div>
+        <h4>Organisez vos événements</h4>
+        <p>Billetterie, RSVP et check-in QR prêts à l'emploi pour chaque événement.</p>
+      </div>
+      <div class="flow-step lit reveal d3">
+        <div class="flow-num">3</div>
+        <h4>Engagez votre communauté</h4>
+        <p>Communication centralisée, feed d'activité et notifications qui touchent vraiment.</p>
+      </div>
+      <div class="flow-step lit reveal d4">
+        <div class="flow-num">4</div>
+        <h4>Analysez votre impact</h4>
+        <p>Mesurez l'engagement, la croissance et l'impact réel de votre association.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TÉMOIGNAGES ===================== -->
+<section class="section" id="temoignages">
+  <div class="glow-blob" style="width:520px;height:520px;background:#4f46e5;bottom:0;left:-180px;opacity:.16"></div>
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>Ils nous font confiance</span>
+      <h2 class="h-section">Les bureaux qui sont passés<br>à CampusFlow ne reviennent pas.</h2>
+    </div>
+    <div class="tst-grid">
+      <div class="tst reveal d1">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« On a divisé par trois le temps passé sur l'orga. La passation au nouveau bureau s'est faite en une après-midi, là où ça prenait des semaines avant. »</p>
+        <div class="tst-who"><span class="av" style="background:#6f72f5">LM</span><div><div class="nm">Léa Martin</div><div class="rl">Présidente · BDE Sciences Po</div></div></div>
+      </div>
+      <div class="tst reveal d2">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« Le check-in QR a changé nos soirées. Plus de file d'attente, plus de listes papier. Nos membres trouvent enfin ça pro. »</p>
+        <div class="tst-who"><span class="av" style="background:#b06bf6">YK</span><div><div class="nm">Yacine Khelifi</div><div class="rl">VP Événements · Club Tech ESIEA</div></div></div>
+      </div>
+      <div class="tst reveal d3">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« Notre asso humanitaire gère 200 bénévoles sur le terrain. Le module Kanban des missions nous a sauvés sur le dernier maraude-thon. »</p>
+        <div class="tst-who"><span class="av" style="background:#38d6e6;color:#06141a">CN</span><div><div class="nm">Clara Nguyen</div><div class="rl">Coordinatrice · Solidari'Campus</div></div></div>
+      </div>
+      <div class="tst reveal d1">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« En tant que junior-entreprise, le CRM sponsors est exactement ce qui nous manquait. On suit enfin notre pipeline de partenariats sérieusement. »</p>
+        <div class="tst-who"><span class="av" style="background:#f59e6f;color:#1a0e06">AB</span><div><div class="nm">Adrien Boucher</div><div class="rl">Resp. Partenariats · JE Polytech</div></div></div>
+      </div>
+      <div class="tst reveal d2">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« L'app mobile fait que nos membres ouvrent CampusFlow tous les jours. Notre taux d'engagement a explosé depuis la rentrée. »</p>
+        <div class="tst-who"><span class="av" style="background:#6f72f5">MR</span><div><div class="nm">Manon Renard</div><div class="rl">Secrétaire générale · AE Lumière</div></div></div>
+      </div>
+      <div class="tst reveal d3">
+        <div class="stars">★★★★★</div>
+        <p class="quote">« Le wiki interne, c'est notre mémoire d'asso. Chaque nouveau bureau démarre avec dix ans d'expérience accumulée au lieu de repartir de zéro. »</p>
+        <div class="tst-who"><span class="av" style="background:#b06bf6">SD</span><div><div class="nm">Samir Daoudi</div><div class="rl">Président · Fédé des Assos Atlas</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>Tarifs</span>
+      <h2 class="h-section">Un plan pour chaque taille d'asso.</h2>
+      <p class="lead">Commencez gratuitement, passez à la vitesse supérieure quand votre communauté grandit. Tarifs étudiants, sans engagement.</p>
+    </div>
+    <div class="price-grid">
+      <div class="price reveal d1">
+        <h3>Starter</h3>
+        <p class="pdesc">Pour les petits clubs qui démarrent leur organisation.</p>
+        <div class="amt">0€<span class="per"> / mois</span></div>
+        <div class="pnote">Jusqu'à 80 membres</div>
+        <a href="#cta" class="btn btn-ghost">Commencer gratuitement</a>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Gestion d'événements &amp; RSVP</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Annuaire des membres</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Communication de base</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>App mobile PWA</li>
+        </ul>
+      </div>
+      <div class="price feat reveal d2">
+        <span class="price-badge">Le plus populaire</span>
+        <h3>Pro</h3>
+        <p class="pdesc">Pour les BDE et associations actives avec de vrais événements.</p>
+        <div class="amt">29€<span class="per"> / mois</span></div>
+        <div class="pnote">Membres illimités · facturé à l'année</div>
+        <a href="#cta" class="btn btn-primary">Demander une démo</a>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout le plan Starter, en illimité</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Billetterie &amp; check-in QR</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Analytics &amp; insights</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>CRM sponsors &amp; Finance Lite</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Wiki interne &amp; Association Memory</li>
+        </ul>
+      </div>
+      <div class="price reveal d3">
+        <h3>Campus</h3>
+        <p class="pdesc">Pour les fédérations et universités multi-associations.</p>
+        <div class="amt">Sur devis</div>
+        <div class="pnote">Multi-campus · SSO · accompagnement</div>
+        <a href="#cta" class="btn btn-ghost">Contacter l'équipe</a>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Tout le plan Pro</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Gestion multi-associations</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>SSO université &amp; rôles avancés</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg>Accompagnement dédié</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <span class="eyebrow"><span class="dot"></span>FAQ</span>
+      <h2 class="h-section">Les questions qu'on nous pose.</h2>
+    </div>
+    <div class="faq-wrap">
+      <div class="faq-item reveal">
+        <button class="faq-q">Combien de temps prend la mise en place ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">La plupart des associations sont opérationnelles en une journée. Vous importez vos membres via un fichier, créez vos pôles, et votre premier événement peut être en ligne dans l'heure. Notre équipe vous accompagne sur les plans Pro et Campus.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Y a-t-il une limite au nombre de membres ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Le plan Starter gratuit gère jusqu'à 80 membres. Les plans Pro et Campus sont en membres illimités — que vous soyez un petit club ou une fédération de plusieurs milliers d'étudiants.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Mes données sont-elles sécurisées ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Oui. CampusFlow est conforme RGPD, vos données sont hébergées en Union Européenne et chiffrées. Vous gardez le contrôle total : export et suppression à tout moment, et des permissions granulaires par rôle.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Y a-t-il une application mobile ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">CampusFlow est une PWA : vos membres l'installent depuis leur navigateur, sans passer par un store. Notifications push, billets QR, agenda et dashboard sont disponibles directement sur le téléphone.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Peut-on gérer plusieurs associations ou campus ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Le plan Campus est conçu pour ça : une vue fédération qui chapeaute plusieurs associations, des espaces isolés par asso, le SSO de votre université et des analytics consolidés à l'échelle du campus.</div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-q">Peut-on personnaliser la plateforme à nos couleurs ?<span class="chev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14" stroke-linecap="round"/></svg></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Absolument. Logo, couleurs de marque, nom de domaine personnalisé et pôles sur-mesure : votre espace CampusFlow reflète l'identité de votre association, pas l'inverse.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="section-sm" id="cta">
+  <div class="wrap">
+    <div class="final reveal">
+      <h2>Donnez à votre asso<br>l'organisation qu'elle mérite.</h2>
+      <p>Rejoignez les associations qui ont fait de CampusFlow le cœur de leur vie de campus.</p>
+      <div class="hero-cta">
+        <a href="#" class="btn btn-primary btn-lg">Demander une démo
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#" class="btn btn-ghost btn-lg">Commencer gratuitement</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="brand"><span class="brand-mark"><span class="diamond"></span></span>CampusFlow</a>
+        <p class="lead">L'Operating System des associations étudiantes modernes. Tout votre campus, sur une seule plateforme.</p>
+        <form class="footer-news" onsubmit="return false">
+          <input type="email" placeholder="Votre email étudiant" aria-label="Email">
+          <button class="btn btn-primary" type="submit">S'inscrire</button>
+        </form>
+      </div>
+      <div class="footer-col">
+        <h5>Produit</h5>
+        <a href="#modules">Modules</a>
+        <a href="#solution">Plateforme</a>
+        <a href="#pricing">Tarifs</a>
+        <a href="#workflow">Fonctionnement</a>
+        <a href="#">App mobile</a>
+      </div>
+      <div class="footer-col">
+        <h5>Ressources</h5>
+        <a href="#faq">FAQ</a>
+        <a href="#">Centre d'aide</a>
+        <a href="#">Guides de passation</a>
+        <a href="#">Blog associatif</a>
+        <a href="#">Statut</a>
+      </div>
+      <div class="footer-col">
+        <h5>Association</h5>
+        <a href="#">À propos</a>
+        <a href="#">Nous contacter</a>
+        <a href="#">Confidentialité</a>
+        <a href="#">CGU</a>
+        <a href="#">RGPD</a>
+      </div>
+    </div>
+    <div class="footer-bot">
+      <span class="cp">© 2026 CampusFlow. Conçu pour l'énergie collective des campus.</span>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M7 10v7M7 7v0M11 17v-4a2 2 0 0 1 4 0v4M11 10v7" stroke-linecap="round"/></svg></a>
+        <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M20 4L4 20" stroke-linecap="round"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4v10.5a3.5 3.5 0 1 1-3-3.46M14 7a4 4 0 0 0 4 4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
